@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+header {
+  background-image: url(Assets/Photo/bgphoto.jpg);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.welcome-text {
+  font-size: 3em;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-family: "arial";
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.welcome-text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.welcome-text h1 span {
+  color: #ffadad;
+}
+.welcome-text a {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+.welcome-text a:hover {
+  background: #fff;
+  color: #333;
+}
+/*resposive*/
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+  }
+  .logo {
+    float: none;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .nav-area {
+    float: none;
+    margin-top: 0;
+  }
+  .nav-area li a {
+    padding: 5px;
+    font-size: 11px;
+  }
+  .nav-area {
+    text-align: center;
+  }
+  .welcome-text {
+    width: 100%;
+    height: auto;
+    margin: 30% 0;
+  }
+  .welcome-text h1 {
+    font-size: 30px;
+  }
+}
+.container2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+}
+
+.container2 .card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.container2 .card .imgBx,
+.container2 .card .contentBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container2 .card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container2 .card .contentBx::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: scaleY(0);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: top;
+  transition-delay: 0.5s;
+}
+
+.container2 .card:hover .contentBx::before {
+  transform: scaleY(1);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: bottom;
+  transition-delay: 0s;
+}
+
+.container2 .card:hover .contentBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 .card .contentBx .content {
+  position: relative;
+  padding: 30px;
+  z-index: 1;
+  transition: 0.5s;
+  transform: translateY(300px);
+  transition-delay: 0s;
+}
+
+.container2 .card:hover .contentBx .content {
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+.container2 .card .contentBx .content h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.container2 .card .contentBx .content p {
+  font-size: 1em;
+  line-height: 1.4rem;
+  font-weight: 300px;
+}
