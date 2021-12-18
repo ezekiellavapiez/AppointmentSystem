@@ -39,18 +39,16 @@ header {
   color: #ffadad;
 }
 .welcome-text a {
-  border: 1px solid #fff;
-  padding: 10px 25px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-top: 20px;
   display: inline-block;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
+  padding: 1.125rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
 }
 .welcome-text a:hover {
-  background: #fff;
-  color: #333;
+  background: #333;
+  color: #ffadad;
 }
 /*resposive*/
 
