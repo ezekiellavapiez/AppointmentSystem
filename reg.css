@@ -1,0 +1,18 @@
+#newcb247CA00046b6bc9907ab45439e69 {
+  position: fixed;
+  top: -30%;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+#caspioform section {
+  margin: 0px;
+  width: 100%;
+  background-color: #ffe7c6;
+}
+#caspioform > div {
+  margin: 0 auto;
+}
+* {
+  background-color: #ffe7c6;
+}
