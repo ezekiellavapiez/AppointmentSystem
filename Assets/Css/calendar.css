@@ -1,0 +1,15 @@
+#caspioform section {
+  background-color: #fff8eb;
+  margin: 0px;
+  width: 100%;
+}
+#newcb247CA000ab1237b0ffe24734b586 {
+  position: fixed;
+  top: -30%;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+body {
+  background-color: #fff8eb;
+}
