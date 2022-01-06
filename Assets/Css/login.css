@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: #1abc9c;
+  background: #fff8eb;
   overflow: hidden;
 }
 ::selection {
@@ -19,13 +19,13 @@ body {
 }
 .wrapper {
   width: 100%;
-  background: #fff;
+  background: #fff8eb;
   border-radius: 5px;
   box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
 }
 .wrapper .title {
   height: 90px;
-  background: #16a085;
+  background: #fff8eb;
   border-radius: 5px 5px 0 0;
   color: #fff;
   font-size: 30px;
