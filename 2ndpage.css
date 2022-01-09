@@ -88,8 +88,7 @@ form.sign-up-form {
 }
 .btn {
   text-decoration: none;
-  display: inline-block;
-  padding: 0.9rem 1.8rem;
+  text-align: center;
   color: #fff;
   background-color: #9a896d;
   border-radius: 16px;
@@ -185,7 +184,7 @@ label {
 
 .sign-btn {
   display: inline-block;
-  width: 100%;
+  width: 80%;
   height: 43px;
   background-color: #151111;
   color: #fff;
