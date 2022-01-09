@@ -114,3 +114,18 @@ form .button input:hover {
 form .signup-link a:hover {
   text-decoration: underline;
 }
+.btn {
+  text-align: center;
+  display: inline-block;
+  padding: 0.9rem 1.9rem;
+  color: #fff !important;
+  background-color: #9a896d;
+  border-radius: 16px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #655b4b;
+  transform: scale(1) !important;
+}
